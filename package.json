@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "contracts:compile:abi": "typechain --target ethers-v5 --out-dir src/abis/types \"./src/abis/**/*.json\"",
-    "serve": "ts-node src/cmd/watch.ts"
+    "watch": "ts-node src/cmd/watch.ts",
+    "block": "ts-node src/cmd/block.ts"
   },
   "author": "",
   "license": "ISC",
